@@ -1,2 +1,3 @@
-#This is my college report
-#This program use Ruby
+#Posting list
+This is my school report
+Program is use Ruby
