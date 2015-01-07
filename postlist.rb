@@ -25,10 +25,15 @@ for i in f_name
     print "\n"
 end
 
+target = File.open("output.txt", 'w')
+
 posting_list.each do |k, v|
-    print "#{k} => "
+    target.write("#{k} =>")
     v.each do |w|
-        print "#{w} "
+        target.write(" #{w}")
     end
-    print "\n"
+    target.write("\n")
 end
+
+target.close()
+puts "OK!"
