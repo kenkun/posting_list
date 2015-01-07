@@ -1,2 +1,2 @@
-This is my college report
-This program use Ruby
+#This is my college report
+#This program use Ruby
