@@ -11,7 +11,7 @@ for i in f_name
     print i,": \n"
     txt = File.open(i)
     text = txt.read().downcase.gsub(/[^a-z\s]/i, '').split(' ')
-    text.uniq
+    text.uniq!
 
     puts "#{text}"
 
