@@ -1,3 +1,2 @@
 #Posting list
-This is my school report
-Program is use Ruby
+This is my school report.The code is use Ruby
